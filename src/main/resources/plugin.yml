@@ -1,0 +1,16 @@
+name: ClearLag
+version: '1.0-SNAPSHOT'
+main: de.winniepat.clearLag.ClearLag
+api-version: '1.21'
+authors: [ WinniePatGG ]
+description: ClearLag
+website: https://winniepat.de
+commands:
+  clearlag:
+    description: Control the ClearLag plugin
+    usage: /clearlag [now|reload]
+    permission: clearlag.command
+permissions:
+  clearlag.command:
+    description: Allows use of ClearLag commands
+    default: op

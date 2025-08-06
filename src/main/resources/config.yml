@@ -1,0 +1,23 @@
+auto-clear-enabled: true
+prevent-spawns-when-full: false
+clear-projectiles: true
+clear-vehicles: true
+# Items to always clear
+item-whitelist:
+  - DIAMOND
+  - NETHERITE_INGOT
+# Items to never clear
+item-blacklist:
+  - ROTTEN_FLESH
+  - COBBLESTONE
+item-min-age: 120
+spawn-prevent-message: '&cToo many entities in this chunk! Cannot spawn more.'
+debug: false
+log-cleared-entities: false
+clear-interval: 300
+max-entities-per-chunk: 25
+clear-items: true
+clear-mobs: true
+clear-xp: true
+warning-message: Clearing laggy entities in 10 seconds!
+cleared-message: Cleared %count% entities!
